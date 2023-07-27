@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 50px;
+    color:#222;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4{
+    font-size: 20px;
+    color: #222;
+}
+
+h6{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+p{
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+.section-m2{
+    margin-bottom: 40px;
+}
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color:#fff;
+    background-color: #000;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color:#fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+}
+
+
+/* Home */
+#home{
+    text-align: center;
+}
+#home h4{
+    color: #088178;
+}
+#home span{
+    color: #ff0000;
+}
+#home .img{
+    width: 100%
+}
+
+/* Home_Header */
+#hero{
+    background-image: url(../assets/images/Gym/Banner-img.png);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: top 5% 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#hero .overlay{
+    position: absolute;
+    opacity: 0.4;
+    background-color: #000;
+    height: 100vh;
+    width: 1300px;
+}
+
+#hero h4{
+    z-index: 4;
+    color: #fff;
+    padding:15px 0;
+}
+
+#hero h1{
+    z-index: 4;
+    color: #fff;
+    word-spacing: 15px;
+    line-height: 100px;
+}
+
+#hero span{
+    z-index: 4;
+    color: #088178;
+}
+#hero h5{
+    z-index: 4;
+    color: #fff;
+    padding: 10px 15px;
+}
+#hero button.white{
+    z-index: 4;
+    padding: 20px 50px;
+    margin: 20px 0 0 100px;
+}
+#hero button:hover{
+    background-color: #fff;
+    color: #000;
+}
+/* Home_card */
+#card-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#card-container h2, p{
+    color: black;
+}
+
+#card-container .card{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#card-container .card:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+
+#card-container .card img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#card-container .card .des{
+    text-align: center;
+    padding: 10px 0;
+}
+
+#card-container .card .des span{
+    color: #606063;
+    font-size: 12px;
+}
+
+#card-container .card .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#card-container .card .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+/* Home_Banner */
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    background-image: url(../assets/images/Banner/banner1.jpg);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: top 15% left 0px;
+}
+
+#banner h4{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#banner h2{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#banner h2 span{
+    color: #ff0000;
+}
+
+#banner button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color:#000000;
+    background-color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#banner button:hover{
+    background: #088178;
+    color: #fff;
+}
+
+/* Home_Card_txt */
+#card-container-cost{
+    background-image: url(../assets/images/Banner/banner2.jpg);
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#card-container-cost h2, p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#card-container-cost .card{
+    background-color: rgba(255, 255, 255, 0.274);
+    width: 23%;
+    min-width: 250px;
+    height: 600px;
+    padding: 10px 12px;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#card-container-cost .card:hover{
+    box-shadow: 20px 20px 30px rgba(255, 255, 255, 0.616);
+    transform: scale(0.76px);
+}
+
+#card-container-cost .card .des{
+    padding: 180px 0;
+    text-align: center;
+}
+
+#card-container-cost .card .des span{
+    color: #606063;
+    font-size: 12px;
+}
+
+#card-container-cost .card .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#card-container-cost .card .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffd500;
+}
+
+#card-container-cost .card .des .list{
+    color: #a8a8a8;
+    text-align: start;
+    line-height: 190%;
+    padding-left: 90px
+}
+
+.about{
+    background: #000b32;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about img{
+    display: flex;
+    flex-direction: column;
+    min-width: 580px;
+    height: 50vh;
+}
+.about .txt{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-right: 100px;
+}
+
+.about h2{
+    color: #ff0000;
+}
+.about p{
+    color: #fff;
+}
+
+#herobanner{
+    background-image: url(../assets/images/Banner/banner3.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
